@@ -1,0 +1,103 @@
+.cont{
+    width: 90vw;
+    overflow: none;
+}
+.parent{
+    width: 270px;
+    overflow: hidden;
+    margin: auto;
+border-radius: 20px;
+background-color: #fff;
+margin-top: 50px;
+}
+.upper-img{
+    width: 100%;
+}
+.flexable{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.l-title{
+    margin-top: 20px;
+font-size: 1.3rem;
+font-weight: 500;
+}
+.s-text{
+    text-align: center;
+    font-size: 0.9rem;
+    padding:0px 50px ;
+}
+.music{
+    display: flex;
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 20px;
+    justify-content: space-evenly;
+padding: 25px 0;
+
+}
+.bold-text{
+    font-weight: 700;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.left-cont{
+display: flex;
+width: 55%;
+justify-content: space-between;
+}
+.button{
+    width: 80%;
+    margin: 15px;
+    padding: 5px 50px;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+color: white;
+}
+.cancel{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.wavy{
+    width: 300%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+    bottom: -60%;
+    left: -40%;
+    animation: wavy infinite 8s ease-in-out alternate;
+
+}
+@keyframes wavy {
+    0% {
+        transform: skew(26deg, 0deg);
+    }
+    100% {
+        transform: skew(126deg, 0deg);
+    }
+    
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
